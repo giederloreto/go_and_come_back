@@ -11,7 +11,9 @@ class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+  appBar: AppBar(),
               bottomNavigationBar: null,
+floatingActionButton: FloatingActionButton(onPressed: () => null,),
 );
   }
 }
